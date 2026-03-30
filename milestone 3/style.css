@@ -1,0 +1,15 @@
+.parent{
+    display: grid;
+    grid-template-columns:minmax(0px, 1fr) 
+    repeat(3, minmax(0, 992px)) 
+    minmax(0px, 1fr);
+
+}
+.nav { grid-area: 1 / 1 / 2 / 4; }
+.title { grid-area: 2 / 2 / 3 / 3; }
+.download { grid-area: 3 / 2 / 4 / 3; }
+.header { grid-area: 2 / 2 / 4 / 3; }
+.details { grid-area: 4 / 2 / 7 / 3; }
+.details1 { grid-area: 4 / 2 / 5 / 3; }
+.details2 { grid-area: 5 / 2 / 6 / 3; }
+.details3 { grid-area: 6 / 2 / 7 / 3; }
