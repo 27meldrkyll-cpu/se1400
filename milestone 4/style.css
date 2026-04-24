@@ -29,34 +29,25 @@ nav{
     display:flex;
     align-items: center;
     justify-content: center;
-    f
+    flex-wrap: wrap;
+    background-color: rgba(37, 37, 37,0.3);
 }
 .content{
     grid-row: 4 / 7; 
     grid-column: 2 / 8;
-    background-color: rgba(255, 6, 193, 0.3);
-    outline: 1px solid #000000;
-    
+    background-color: #252525;    
 }
 .content1{
     grid-row: 4 / 5; 
     grid-column: 2 / 8;
-    background-color: rgba(255, 6, 193, 0.3);
-    outline: 1px solid #000000;
-    
 }
 .content2{
     grid-row: 5 / 6; 
     grid-column: 2 / 8;
-    background-color: rgba(255, 6, 193, 0.3);
-   
 }
 .content3{
     grid-row: 6 / 7; 
-    grid-column: 2 / 8;
-    background-color: rgba(255, 6, 193, 0.3);
-    outline: 1px solid #000000;
-    
+    grid-column: 2 / 8;    
 }
 .aside1{
     grid-row: 2 / 7; 
@@ -111,4 +102,13 @@ h1{
     font-size: 100px;
     text-align: center;
     padding: 15px 35px;
+}
+.text{
+    color: #f00101;
+    font-size: 110%;
+    text-align: center;
+}
+.bold{
+    font-size: 115;
+    font-weight: bold;
 }
